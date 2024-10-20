@@ -8,7 +8,8 @@ plugins {
 android {
     namespace = "com.example.keycloak_test_app"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    //ndkVersion = flutter.ndkVersion
+    ndkVersion = "25.1.8937393"
     
 
     compileOptions {
@@ -30,7 +31,7 @@ android {
         versionCode = flutter.versionCode
         versionName = flutter.versionName
         manifestPlaceholders = [
-            appAuthRedirectScheme: 'com.boongkeycloak', // as done earlier
+            appAuthRedirectScheme: 'com.testapp', // as done earlier
             applicationName: 'keycloak_test_app' // Define your application name here
         ]
     }

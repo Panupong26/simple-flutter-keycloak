@@ -50,7 +50,7 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-			<string>com.boongkeycloak</string> 
+			<string>com.testapp</string> 
 			</array>
 		</dict>
 	</array>

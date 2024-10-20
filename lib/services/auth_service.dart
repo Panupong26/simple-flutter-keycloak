@@ -9,7 +9,7 @@ class AuthService {
   final FlutterAppAuth _appAuth = FlutterAppAuth();
 
   final String clientId = 'officer'; // Replace with your client ID
-  final String redirectUrl = 'com.boongkeycloak://login'; // Replace with your redirect URL
+  final String redirectUrl = 'com.testapp://login'; // Replace with your redirect URL
   final String discoveryUrl = 'https://e-oidc.dot.go.th/realms/dot-officer/.well-known/openid-configuration';
 
   Future<void> login(BuildContext context) async {
